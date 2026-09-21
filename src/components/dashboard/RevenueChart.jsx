@@ -159,7 +159,7 @@ export default function RevenueChart() {
             </h2>
 
             <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-              Track your revenue performance over time.
+              Track your revenue performance over time
             </p>
           </div>
         </div>

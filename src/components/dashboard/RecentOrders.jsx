@@ -62,7 +62,7 @@ export default function RecentOrders() {
             </h2>
 
             <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-              Latest customer transactions.
+              Latest customer transactions
             </p>
           </div>
         </div>

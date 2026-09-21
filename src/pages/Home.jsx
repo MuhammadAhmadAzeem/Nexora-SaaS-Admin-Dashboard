@@ -20,25 +20,25 @@ const features = [
     icon: FolderKanban,
     title: "Project Management",
     description:
-      "Organize projects, track progress and keep your team aligned from one workspace.",
+      "Organize projects, track progress and keep your team aligned from one workspace",
   },
   {
     icon: Users,
     title: "Team Management",
     description:
-      "Manage users, roles and account access with a clean and centralized interface.",
+      "Manage users, roles and account access with a clean and centralized interface",
   },
   {
     icon: ClipboardList,
     title: "Task Tracking",
     description:
-      "Create, assign and monitor tasks across different stages of your workflow.",
+      "Create, assign and monitor tasks across different stages of your workflow",
   },
   {
     icon: BarChart3,
     title: "Business Analytics",
     description:
-      "Understand revenue, growth and workspace activity through useful analytics.",
+      "Understand revenue, growth and workspace activity through useful analytics",
   },
 ];
 
@@ -72,7 +72,7 @@ export default function Home() {
     <div className="min-h-screen overflow-x-hidden bg-white text-slate-900 dark:bg-slate-950 dark:text-white">
       <SEO
         title="Modern SaaS Workspace"
-        description="Nexora is a modern SaaS workspace for managing projects, users, tasks, orders and business analytics."
+        description="Nexora is a modern SaaS workspace for managing projects, users, tasks, orders and business analytics"
       />
 
       {/* Navbar */}
@@ -238,14 +238,14 @@ export default function Home() {
               <h1 className="mt-6 max-w-3xl text-4xl font-bold leading-[1.08] tracking-tight text-slate-950 dark:text-white sm:text-5xl lg:text-6xl">
                 Everything your team needs,
                 <span className="block bg-linear-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-                  in one workspace.
+                  in one workspace
                 </span>
               </h1>
 
               <p className="mt-6 max-w-2xl text-base leading-7 text-slate-500 dark:text-slate-400 sm:text-lg">
                 Nexora helps teams manage projects, users, tasks,
                 orders and business analytics through one simple
-                SaaS dashboard.
+                SaaS dashboard
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -424,7 +424,7 @@ export default function Home() {
 
               <p className="mt-4 text-base leading-7 text-slate-500 dark:text-slate-400">
                 A focused workspace designed to simplify everyday
-                business and team operations.
+                business and team operations
               </p>
             </div>
 
@@ -467,14 +467,14 @@ export default function Home() {
               </p>
 
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 dark:text-white sm:text-4xl">
-                Less complexity.
-                <span className="block">More visibility.</span>
+                Less complexity
+                <span className="block">More visibility</span>
               </h2>
 
               <p className="mt-5 max-w-xl text-base leading-7 text-slate-500 dark:text-slate-400">
                 Nexora brings the most important parts of your
                 workspace together so your team can spend less time
-                switching between tools and more time getting work done.
+                switching between tools and more time getting work done
               </p>
 
               <div className="mt-7 space-y-4">
@@ -488,25 +488,25 @@ export default function Home() {
               <InfoCard
                 icon={Zap}
                 title="Fast"
-                text="Quick access to the information your team needs."
+                text="Quick access to the information your team needs"
               />
 
               <InfoCard
                 icon={ShieldCheck}
                 title="Secure"
-                text="Designed with account and workspace security in mind."
+                text="Designed with account and workspace security in mind"
               />
 
               <InfoCard
                 icon={BarChart3}
                 title="Insightful"
-                text="Turn workspace activity into useful business insights."
+                text="Turn workspace activity into useful business insights"
               />
 
               <InfoCard
                 icon={Users}
                 title="Collaborative"
-                text="Keep teams, projects and tasks connected."
+                text="Keep teams, projects and tasks connected"
               />
             </div>
           </div>
@@ -521,7 +521,7 @@ export default function Home() {
 
             <p className="mx-auto mt-4 max-w-xl text-sm leading-6 text-blue-50 sm:text-base">
               Create your Nexora account and bring your projects,
-              users and tasks together.
+              users and tasks together
             </p>
 
             <Link
@@ -556,7 +556,7 @@ export default function Home() {
                 </h2>
 
                 <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
-                  We&apos;re here to help with your workspace.
+                  We&apos;re here to help with your workspace
                 </p>
               </div>
 
@@ -580,7 +580,7 @@ export default function Home() {
             </p>
 
             <p className="mt-1 text-xs text-slate-400">
-              Modern SaaS workspace for teams.
+              Modern SaaS workspace for teams
             </p>
           </div>
 

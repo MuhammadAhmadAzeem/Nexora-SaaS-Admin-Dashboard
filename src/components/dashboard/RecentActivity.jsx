@@ -54,7 +54,7 @@ export default function RecentActivity() {
           </h2>
 
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-            Latest activity across your workspace.
+            Latest activity across your workspace
           </p>
         </div>
 
