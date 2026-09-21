@@ -1,0 +1,68 @@
+const users = [
+  {
+    id: 1,
+    name: "Ali Khan",
+    email: "ali.khan@example.com",
+    role: "Administrator",
+    status: "Active",
+    joinedAt: "Jan 12, 2026",
+  },
+  {
+    id: 2,
+    name: "Ahmed Raza",
+    email: "ahmed.raza@example.com",
+    role: "Manager",
+    status: "Active",
+    joinedAt: "Feb 08, 2026",
+  },
+  {
+    id: 3,
+    name: "Sara Malik",
+    email: "sara.malik@example.com",
+    role: "User",
+    status: "Active",
+    joinedAt: "Mar 15, 2026",
+  },
+  {
+    id: 4,
+    name: "Usman Ali",
+    email: "usman.ali@example.com",
+    role: "User",
+    status: "Inactive",
+    joinedAt: "Apr 02, 2026",
+  },
+  {
+    id: 5,
+    name: "Ayesha Noor",
+    email: "ayesha.noor@example.com",
+    role: "Manager",
+    status: "Active",
+    joinedAt: "May 21, 2026",
+  },
+  {
+    id: 6,
+    name: "Hamza Ahmed",
+    email: "hamza.ahmed@example.com",
+    role: "User",
+    status: "Active",
+    joinedAt: "Jun 10, 2026",
+  },
+  {
+    id: 7,
+    name: "Fatima Zahra",
+    email: "fatima.zahra@example.com",
+    role: "User",
+    status: "Inactive",
+    joinedAt: "Jul 05, 2026",
+  },
+  {
+    id: 8,
+    name: "Bilal Hussain",
+    email: "bilal.hussain@example.com",
+    role: "User",
+    status: "Active",
+    joinedAt: "Aug 14, 2026",
+  },
+];
+
+export default users;

@@ -1,0 +1,68 @@
+const orders = [
+  {
+    id: "#ORD-001",
+    customer: "Ali Khan",
+    email: "ali.khan@example.com",
+    amount: 250,
+    status: "Completed",
+    date: "2026-09-20",
+  },
+  {
+    id: "#ORD-002",
+    customer: "Ahmed Raza",
+    email: "ahmed.raza@example.com",
+    amount: 480,
+    status: "Pending",
+    date: "2026-09-19",
+  },
+  {
+    id: "#ORD-003",
+    customer: "Sara Malik",
+    email: "sara.malik@example.com",
+    amount: 320,
+    status: "Completed",
+    date: "2026-09-18",
+  },
+  {
+    id: "#ORD-004",
+    customer: "Usman Ali",
+    email: "usman.ali@example.com",
+    amount: 150,
+    status: "Cancelled",
+    date: "2026-09-17",
+  },
+  {
+    id: "#ORD-005",
+    customer: "Ayesha Noor",
+    email: "ayesha.noor@example.com",
+    amount: 720,
+    status: "Completed",
+    date: "2026-09-16",
+  },
+  {
+    id: "#ORD-006",
+    customer: "Hamza Ahmed",
+    email: "hamza.ahmed@example.com",
+    amount: 390,
+    status: "Pending",
+    date: "2026-09-15",
+  },
+  {
+    id: "#ORD-007",
+    customer: "Fatima Zahra",
+    email: "fatima.zahra@example.com",
+    amount: 210,
+    status: "Completed",
+    date: "2026-09-14",
+  },
+  {
+    id: "#ORD-008",
+    customer: "Bilal Hussain",
+    email: "bilal.hussain@example.com",
+    amount: 560,
+    status: "Completed",
+    date: "2026-09-13",
+  },
+];
+
+export default orders;

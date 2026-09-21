@@ -1,32 +1,25 @@
-export default function Button({
-  children,
-  type = "button",
-  variant = "primary",
-  onClick,
-  disabled = false,
+import { Inbox } from "lucide-react";
+
+export default function EmptyState({
+  title = "No data found",
+  description = "There is nothing to display here yet.",
+  action,
 }) {
-  const variants = {
-    primary:
-      "bg-gradient-to-r from-indigo-500 to-violet-500 text-white hover:opacity-90",
-
-    secondary:
-      "bg-white text-slate-700 border border-slate-200 hover:bg-slate-50",
-
-    danger:
-      "bg-red-500 text-white hover:bg-red-600",
-
-    success:
-      "bg-green-500 text-white hover:bg-green-600",
-  };
-
   return (
-    <button
-      type={type}
-      onClick={onClick}
-      disabled={disabled}
-      className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed ${variants[variant]}`}
-    >
-      {children}
-    </button>
+    <div className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white px-6 py-12 text-center dark:border-slate-700 dark:bg-slate-900">
+      <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 dark:bg-blue-500/10 dark:text-blue-400">
+        <Inbox size={26} strokeWidth={1.8} />
+      </div>
+
+      <h3 className="mt-5 text-base font-bold text-slate-900 dark:text-white">
+        {title}
+      </h3>
+
+      <p className="mt-2 max-w-md text-sm leading-6 text-slate-500 dark:text-slate-400">
+        {description}
+      </p>
+
+      {action && <div className="mt-5">{action}</div>}
+    </div>
   );
 }

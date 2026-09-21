@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Disallow: /login
+Disallow: /signup
+Disallow: /dashboard
+Disallow: /users
+Disallow: /projects
+Disallow: /tasks
+Disallow: /orders
+Disallow: /analytics
+Disallow: /notifications
+Disallow: /settings
+
+Sitemap: https://your-domain.com/sitemap.xml

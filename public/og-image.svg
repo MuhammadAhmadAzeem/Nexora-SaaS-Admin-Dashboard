@@ -1,0 +1,373 @@
+<svg
+  width="1200"
+  height="630"
+  viewBox="0 0 1200 630"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <linearGradient
+      id="background"
+      x1="0"
+      y1="0"
+      x2="1200"
+      y2="630"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#0F172A" />
+      <stop offset="1" stop-color="#172554" />
+    </linearGradient>
+
+    <linearGradient
+      id="brand"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="1"
+    >
+      <stop stop-color="#2563EB" />
+      <stop offset="1" stop-color="#06B6D4" />
+    </linearGradient>
+
+    <filter
+      id="blur"
+      x="-100%"
+      y="-100%"
+      width="300%"
+      height="300%"
+    >
+      <feGaussianBlur stdDeviation="70" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect
+    width="1200"
+    height="630"
+    fill="url(#background)"
+  />
+
+  <!-- Decorative Glow -->
+  <circle
+    cx="1000"
+    cy="80"
+    r="180"
+    fill="#2563EB"
+    opacity="0.18"
+    filter="url(#blur)"
+  />
+
+  <circle
+    cx="180"
+    cy="560"
+    r="180"
+    fill="#06B6D4"
+    opacity="0.14"
+    filter="url(#blur)"
+  />
+
+  <!-- Decorative Grid -->
+  <path
+    d="M760 0V630M840 0V630M920 0V630M1000 0V630M1080 0V630M1160 0V630"
+    stroke="white"
+    stroke-opacity="0.035"
+  />
+
+  <path
+    d="M760 70H1200M760 150H1200M760 230H1200M760 310H1200M760 390H1200M760 470H1200M760 550H1200"
+    stroke="white"
+    stroke-opacity="0.035"
+  />
+
+  <!-- Brand Icon -->
+  <rect
+    x="90"
+    y="110"
+    width="82"
+    height="82"
+    rx="22"
+    fill="url(#brand)"
+  />
+
+  <text
+    x="131"
+    y="169"
+    fill="white"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="48"
+    font-weight="700"
+    text-anchor="middle"
+  >
+    N
+  </text>
+
+  <!-- Brand Name -->
+  <text
+    x="198"
+    y="165"
+    fill="white"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="42"
+    font-weight="700"
+  >
+    Nexora
+  </text>
+
+  <!-- Main Heading -->
+  <text
+    x="90"
+    y="275"
+    fill="white"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="58"
+    font-weight="700"
+  >
+    Everything your team needs,
+  </text>
+
+  <text
+    x="90"
+    y="345"
+    fill="#38BDF8"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="58"
+    font-weight="700"
+  >
+    in one workspace.
+  </text>
+
+  <!-- Description -->
+  <text
+    x="90"
+    y="405"
+    fill="#CBD5E1"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="23"
+    font-weight="400"
+  >
+    Manage projects, users, tasks and business analytics
+  </text>
+
+  <text
+    x="90"
+    y="438"
+    fill="#CBD5E1"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="23"
+    font-weight="400"
+  >
+    through one modern SaaS workspace.
+  </text>
+
+  <!-- Feature Pills -->
+  <rect
+    x="90"
+    y="490"
+    width="145"
+    height="42"
+    rx="21"
+    fill="white"
+    fill-opacity="0.08"
+    stroke="white"
+    stroke-opacity="0.1"
+  />
+
+  <text
+    x="162"
+    y="517"
+    fill="#E2E8F0"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+    font-weight="600"
+    text-anchor="middle"
+  >
+    Projects
+  </text>
+
+  <rect
+    x="247"
+    y="490"
+    width="115"
+    height="42"
+    rx="21"
+    fill="white"
+    fill-opacity="0.08"
+    stroke="white"
+    stroke-opacity="0.1"
+  />
+
+  <text
+    x="304"
+    y="517"
+    fill="#E2E8F0"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+    font-weight="600"
+    text-anchor="middle"
+  >
+    Tasks
+  </text>
+
+  <rect
+    x="374"
+    y="490"
+    width="125"
+    height="42"
+    rx="21"
+    fill="white"
+    fill-opacity="0.08"
+    stroke="white"
+    stroke-opacity="0.1"
+  />
+
+  <text
+    x="436"
+    y="517"
+    fill="#E2E8F0"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+    font-weight="600"
+    text-anchor="middle"
+  >
+    Analytics
+  </text>
+
+  <!-- Dashboard Preview -->
+  <rect
+    x="760"
+    y="125"
+    width="350"
+    height="380"
+    rx="24"
+    fill="#FFFFFF"
+    fill-opacity="0.06"
+    stroke="#FFFFFF"
+    stroke-opacity="0.12"
+  />
+
+  <rect
+    x="785"
+    y="150"
+    width="300"
+    height="42"
+    rx="12"
+    fill="#FFFFFF"
+    fill-opacity="0.06"
+  />
+
+  <circle
+    cx="807"
+    cy="171"
+    r="7"
+    fill="#38BDF8"
+  />
+
+  <rect
+    x="825"
+    y="165"
+    width="80"
+    height="10"
+    rx="5"
+    fill="#FFFFFF"
+    fill-opacity="0.35"
+  />
+
+  <!-- Dashboard Cards -->
+  <rect
+    x="785"
+    y="215"
+    width="138"
+    height="78"
+    rx="14"
+    fill="#FFFFFF"
+    fill-opacity="0.07"
+  />
+
+  <rect
+    x="943"
+    y="215"
+    width="142"
+    height="78"
+    rx="14"
+    fill="#FFFFFF"
+    fill-opacity="0.07"
+  />
+
+  <rect
+    x="803"
+    y="234"
+    width="45"
+    height="8"
+    rx="4"
+    fill="#FFFFFF"
+    fill-opacity="0.3"
+  />
+
+  <rect
+    x="803"
+    y="252"
+    width="75"
+    height="16"
+    rx="8"
+    fill="#38BDF8"
+    fill-opacity="0.8"
+  />
+
+  <rect
+    x="961"
+    y="234"
+    width="50"
+    height="8"
+    rx="4"
+    fill="#FFFFFF"
+    fill-opacity="0.3"
+  />
+
+  <rect
+    x="961"
+    y="252"
+    width="80"
+    height="16"
+    rx="8"
+    fill="#22C55E"
+    fill-opacity="0.8"
+  />
+
+  <!-- Chart -->
+  <rect
+    x="785"
+    y="315"
+    width="300"
+    height="165"
+    rx="14"
+    fill="#FFFFFF"
+    fill-opacity="0.05"
+  />
+
+  <path
+    d="M810 445L850 420L890 432L930 385L970 400L1010 350L1060 365"
+    stroke="#38BDF8"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <circle
+    cx="1060"
+    cy="365"
+    r="7"
+    fill="#38BDF8"
+  />
+
+  <!-- Footer -->
+  <text
+    x="1110"
+    y="570"
+    fill="#94A3B8"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+    text-anchor="end"
+  >
+    Modern SaaS Workspace
+  </text>
+</svg>

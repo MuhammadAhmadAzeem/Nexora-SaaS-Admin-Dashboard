@@ -1,0 +1,58 @@
+const projects = [
+  {
+    id: 1,
+    name: "Nexora Website",
+    description: "Modern SaaS website and landing page development.",
+    status: "In Progress",
+    priority: "High",
+    progress: 75,
+    dueDate: "2026-10-05",
+  },
+  {
+    id: 2,
+    name: "Mobile Application",
+    description: "Cross-platform mobile application for customers.",
+    status: "Planning",
+    priority: "Medium",
+    progress: 20,
+    dueDate: "2026-11-15",
+  },
+  {
+    id: 3,
+    name: "Admin Dashboard",
+    description: "Complete SaaS admin dashboard with analytics.",
+    status: "In Progress",
+    priority: "High",
+    progress: 60,
+    dueDate: "2026-10-20",
+  },
+  {
+    id: 4,
+    name: "CRM Integration",
+    description: "Integration with customer relationship management system.",
+    status: "Completed",
+    priority: "Medium",
+    progress: 100,
+    dueDate: "2026-09-10",
+  },
+  {
+    id: 5,
+    name: "Payment System",
+    description: "Secure online payment system integration.",
+    status: "On Hold",
+    priority: "High",
+    progress: 45,
+    dueDate: "2026-12-01",
+  },
+  {
+    id: 6,
+    name: "Analytics Module",
+    description: "Business analytics and reporting module.",
+    status: "Planning",
+    priority: "Low",
+    progress: 10,
+    dueDate: "2026-12-20",
+  },
+];
+
+export default projects;
