@@ -1,6 +1,5 @@
 import {
   BrowserRouter,
-  Navigate,
   Route,
   Routes,
 } from "react-router-dom";
@@ -13,6 +12,7 @@ import Signup from "../pages/Signup";
 import ThankYou from "../pages/ThankYou";
 import Privacy from "../pages/Privacy";
 import Terms from "../pages/Terms";
+import Contact from "../pages/Contact";
 import NotFound from "../pages/NotFound";
 
 import Dashboard from "../pages/Dashboard";
@@ -40,6 +40,8 @@ export default function AppRoutes() {
         <Route path="/privacy" element={<Privacy />} />
 
         <Route path="/terms" element={<Terms />} />
+
+        <Route path="/contact" element={<Contact />} />
 
         {/* Dashboard Routes */}
         <Route element={<DashboardLayout />}>

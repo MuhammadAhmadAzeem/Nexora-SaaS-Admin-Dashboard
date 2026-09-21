@@ -118,12 +118,12 @@ export default function Home() {
               About
             </a>
 
-            <a
-              href="#contact"
+            <Link
+              to="/contact"
               className="text-sm font-medium text-slate-500 transition-colors hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/30 dark:text-slate-400 dark:hover:text-white"
             >
               Contact
-            </a>
+            </Link>
           </nav>
 
           {/* Desktop Actions */}
@@ -194,11 +194,13 @@ export default function Home() {
                 onClick={closeMenu}
               />
 
-              <MobileNavLink
-                href="#contact"
-                label="Contact"
+              <Link
+                to="/contact"
                 onClick={closeMenu}
-              />
+                className="rounded-xl px-3 py-3 text-sm font-medium text-slate-600 transition-colors hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/30 dark:text-slate-300 dark:hover:bg-slate-800"
+              >
+                Contact
+              </Link>
             </nav>
 
             <div className="mt-4 grid grid-cols-2 gap-3">
@@ -538,37 +540,6 @@ export default function Home() {
             </Link>
           </div>
         </section>
-
-        {/* Contact */}
-        <section
-          id="contact"
-          className="scroll-mt-20 border-t border-slate-200 px-5 py-16 dark:border-slate-800 sm:px-6 lg:px-8"
-        >
-          <div className="mx-auto max-w-7xl">
-            <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
-              <div>
-                <p className="text-sm font-semibold text-blue-600 dark:text-blue-400">
-                  Contact
-                </p>
-
-                <h2 className="mt-2 text-2xl font-bold text-slate-900 dark:text-white">
-                  Have a question?
-                </h2>
-
-                <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
-                  We&apos;re here to help with your workspace
-                </p>
-              </div>
-
-              <a
-                href="mailto:hello@nexora.example"
-                className="inline-flex h-11 items-center justify-center rounded-xl border border-slate-200 px-5 text-sm font-semibold text-slate-700 transition-colors hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-500/10 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
-              >
-                Contact Support
-              </a>
-            </div>
-          </div>
-        </section>
       </main>
 
       {/* Footer */}
@@ -585,6 +556,13 @@ export default function Home() {
           </div>
 
           <div className="flex flex-wrap gap-5 text-xs text-slate-400">
+            <Link
+              to="/contact"
+              className="transition-colors hover:text-slate-700 dark:hover:text-slate-200"
+            >
+              Contact
+            </Link>
+
             <Link
               to="/privacy"
               className="transition-colors hover:text-slate-700 dark:hover:text-slate-200"
