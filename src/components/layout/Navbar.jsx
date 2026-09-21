@@ -5,7 +5,6 @@ import {
   LogOut,
   Menu,
   Search,
-  Settings,
   User,
   X,
 } from "lucide-react";
@@ -48,11 +47,6 @@ const searchablePages = [
     name: "Notifications",
     path: "/notifications",
     keywords: ["notifications", "notification", "alerts"],
-  },
-  {
-    name: "Settings",
-    path: "/settings",
-    keywords: ["settings", "account", "profile", "security"],
   },
 ];
 
@@ -239,6 +233,9 @@ export default function Navbar({
             hover:border-blue-200
             hover:bg-blue-50
             hover:text-blue-600
+            focus-visible:outline-none
+            focus-visible:ring-4
+            focus-visible:ring-blue-500/20
             lg:hidden
             dark:border-slate-700
             dark:bg-slate-900
@@ -354,8 +351,12 @@ export default function Navbar({
                     justify-center
                     rounded-lg
                     text-slate-400
+                    transition
                     hover:bg-slate-200
                     hover:text-slate-700
+                    focus-visible:outline-none
+                    focus-visible:ring-2
+                    focus-visible:ring-blue-500/20
                     dark:hover:bg-slate-800
                     dark:hover:text-white
                   "
@@ -407,6 +408,10 @@ export default function Navbar({
                       text-slate-700
                       transition
                       hover:bg-slate-100
+                      focus-visible:outline-none
+                      focus-visible:ring-2
+                      focus-visible:ring-inset
+                      focus-visible:ring-blue-500/20
                       dark:text-slate-200
                       dark:hover:bg-slate-800
                     "
@@ -426,7 +431,7 @@ export default function Navbar({
                   </p>
 
                   <p className="mt-1 text-xs text-slate-400">
-                    Try Dashboard, Users, Projects or Settings.
+                    Try Dashboard, Users, Projects or Tasks.
                   </p>
                 </div>
               )}
@@ -460,6 +465,9 @@ export default function Navbar({
               hover:border-blue-200
               hover:bg-blue-50
               hover:text-blue-600
+              focus-visible:outline-none
+              focus-visible:ring-4
+              focus-visible:ring-blue-500/20
               dark:border-slate-700
               dark:bg-slate-900
               dark:text-slate-300
@@ -494,6 +502,8 @@ export default function Navbar({
               onClick={() =>
                 setProfileOpen((open) => !open)
               }
+              aria-label="Open profile menu"
+              aria-expanded={profileOpen}
               className="
                 flex
                 items-center
@@ -505,6 +515,9 @@ export default function Navbar({
                 transition
                 hover:border-slate-200
                 hover:bg-slate-50
+                focus-visible:outline-none
+                focus-visible:ring-4
+                focus-visible:ring-blue-500/20
                 dark:hover:border-slate-700
                 dark:hover:bg-slate-900
               "
@@ -570,6 +583,7 @@ export default function Navbar({
                   dark:bg-slate-900
                 "
               >
+                {/* Profile Header */}
                 <div
                   className="
                     border-b
@@ -611,6 +625,7 @@ export default function Navbar({
                   </div>
                 </div>
 
+                {/* My Profile */}
                 <button
                   type="button"
                   onClick={() => {
@@ -630,6 +645,10 @@ export default function Navbar({
                     text-slate-700
                     transition
                     hover:bg-slate-100
+                    focus-visible:outline-none
+                    focus-visible:ring-2
+                    focus-visible:ring-inset
+                    focus-visible:ring-blue-500/20
                     dark:text-slate-200
                     dark:hover:bg-slate-800
                   "
@@ -638,34 +657,10 @@ export default function Navbar({
                   <span>My Profile</span>
                 </button>
 
-                <button
-                  type="button"
-                  onClick={() => {
-                    navigate("/settings");
-                    setProfileOpen(false);
-                  }}
-                  className="
-                    flex
-                    w-full
-                    items-center
-                    gap-3
-                    rounded-lg
-                    px-3
-                    py-2.5
-                    text-sm
-                    text-slate-700
-                    transition
-                    hover:bg-slate-100
-                    dark:text-slate-200
-                    dark:hover:bg-slate-800
-                  "
-                >
-                  <Settings size={17} />
-                  <span>Settings</span>
-                </button>
-
+                {/* Divider */}
                 <div className="my-1 border-t border-slate-100 dark:border-slate-800" />
 
+                {/* Sign Out */}
                 <button
                   type="button"
                   onClick={handleLogout}
@@ -681,6 +676,10 @@ export default function Navbar({
                     text-red-600
                     transition
                     hover:bg-red-50
+                    focus-visible:outline-none
+                    focus-visible:ring-2
+                    focus-visible:ring-inset
+                    focus-visible:ring-red-500/20
                     dark:text-red-400
                     dark:hover:bg-red-950/30
                   "
