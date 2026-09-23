@@ -313,14 +313,6 @@ https://github.com/MuhammadAhmadAzeem
 
 ---
 
-## ⭐ Project Repository
-
-https://github.com/MuhammadAhmadAzeem/Nexora-SaaS-Admin-Dashboard
-
-If you find the project useful, consider giving the repository a ⭐.
-
----
-
 ## 📄 License
 
 This project is created for learning, development, and portfolio purposes.
